@@ -421,12 +421,6 @@ def main():
     print(f"\nEmbedding columns:")
     print(f"  - Total: {n_embedding_cols + 2} columns")
     print(f"  - row_id + oov_ratio + {n_embedding_cols} embedding features")
-    
-    print("\nNext steps:")
-    print("  1. Combine OOF embeddings for training")
-    print("  2. Generate test embeddings using saved models")
-    print("  3. Use embeddings as features for downstream models")
-
 
 if __name__ == "__main__":
     main()
